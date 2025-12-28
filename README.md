@@ -8,8 +8,8 @@ Using Docker, build the image from the project root with:
 docker build -t webcam_styletransfer .
 
 
-##Running the Container
-###Linux
+## Running the Container
+### Linux
 After building the image, you should be able to run the container with:
 
 docker run --rm -it \
@@ -17,14 +17,14 @@ docker run --rm -it \
   -p 8000:8000 \
   webcam_styletransfer
 
-##Windows
+## Windows
 After building the image, you should be able to run the container with:
 
 docker run --rm -it `
   -p 8000:8000 `
   webcam_styletransfer
 
-##Viewing the Feed
+## Viewing the Feed
 After Running Access the Feed on your Browser with:
 
 http://localhost:8000
