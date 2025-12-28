@@ -17,7 +17,7 @@ docker run --rm -it \
   -p 8000:8000 \
   webcam_styletransfer
 
-## Windows
+### Windows
 After building the image, you should be able to run the container with:
 
 docker run --rm -it `
